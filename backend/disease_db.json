@@ -1,0 +1,602 @@
+{
+  "Corn___Common_Rust": {
+    "crop": "Corn (Maize)",
+    "disease": "Common Rust",
+    "status": "diseased",
+    "severity": "moderate",
+    "description": "Common rust of corn is caused by the fungus Puccinia sorghi. It is one of the most frequently occurring foliar diseases of corn and can cause significant yield losses if not managed properly, especially in susceptible hybrids during cool, moist conditions.",
+    "symptoms": [
+      "Small, circular to elongated, powdery pustules on both leaf surfaces",
+      "Pustules are initially light green to yellow, turning cinnamon-brown to dark brown",
+      "Pustules rupture the leaf epidermis, releasing reddish-brown spores (urediniospores)",
+      "Severely infected leaves turn yellow, then brown and die prematurely",
+      "Pustules may appear on husks, stalks, and leaf sheaths in severe cases"
+    ],
+    "causes": [
+      "Fungal pathogen: Puccinia sorghi",
+      "Favored by cool temperatures (16–23°C) and high relative humidity (>95%)",
+      "Windborne spores from infected plants spread the disease rapidly",
+      "Overhead irrigation can promote spore germination and infection",
+      "Dense plant canopy restricts airflow and maintains moisture"
+    ],
+    "cure": [
+      "Apply foliar fungicides such as azoxystrobin, propiconazole, or mancozeb at early infection stages",
+      "Use systemic fungicides like triazoles (tebuconazole) for better curative action",
+      "Remove and destroy severely infected plant debris after harvest",
+      "Ensure adequate plant spacing for better air circulation",
+      "Apply fungicide spray at 7–14 day intervals during disease-favorable conditions"
+    ],
+    "prevention": [
+      "Plant resistant or tolerant corn hybrids",
+      "Avoid late planting when conditions favor rust development",
+      "Apply preventive fungicide sprays at tasseling stage",
+      "Maintain field sanitation by removing crop residues",
+      "Monitor fields regularly for early disease detection",
+      "Avoid excessive nitrogen fertilization which promotes lush growth favorable to disease"
+    ]
+  },
+  "Corn___Gray_Leaf_Spot": {
+    "crop": "Corn (Maize)",
+    "disease": "Gray Leaf Spot",
+    "status": "diseased",
+    "severity": "high",
+    "description": "Gray leaf spot (GLS) is caused by the fungus Cercospora zeae-maydis. It is one of the most economically damaging foliar diseases of corn worldwide, particularly in areas with warm temperatures and high humidity. Under severe conditions, it can reduce grain yield by 30–50%.",
+    "symptoms": [
+      "Rectangular to elongated, tan to gray lesions parallel to leaf veins",
+      "Lesions are initially small, water-soaked spots that expand to 1–6 cm long",
+      "Lesion edges appear distinct with yellow halos in early stages",
+      "Older lesions turn gray to tan with a bleached appearance",
+      "Severe infection causes extensive blighting of lower leaves progressing upward",
+      "Fine gray fungal sporulation visible on lesions under humid conditions"
+    ],
+    "causes": [
+      "Fungal pathogen: Cercospora zeae-maydis",
+      "Favored by warm temperatures (25–30°C) and prolonged leaf wetness",
+      "Survives in infected crop residue on the soil surface",
+      "Spores spread by wind and splashing rain",
+      "No-till or reduced tillage practices increase inoculum levels",
+      "Susceptible hybrids grown consecutively in the same field"
+    ],
+    "cure": [
+      "Apply strobilurin-based fungicides (azoxystrobin, pyraclostrobin) at first sign of disease",
+      "Use triazole fungicides (propiconazole, tebuconazole) for curative treatment",
+      "Mix strobilurin + triazole for broader spectrum control",
+      "Apply at tasseling to silking stage for best results",
+      "Repeat application every 14–21 days under high disease pressure"
+    ],
+    "prevention": [
+      "Plant resistant corn hybrids rated for GLS resistance",
+      "Rotate crops with non-host crops like soybeans or small grains",
+      "Incorporate or deep-plow crop residues to reduce inoculum",
+      "Improve field drainage and air circulation",
+      "Apply preventive fungicide sprays before disease onset",
+      "Avoid dense planting; maintain recommended plant populations"
+    ]
+  },
+  "Corn___Healthy": {
+    "crop": "Corn (Maize)",
+    "disease": "No Disease Detected",
+    "status": "healthy",
+    "severity": "none",
+    "description": "The corn plant appears healthy with no visible signs of disease, pest damage, or nutrient deficiency. Healthy corn leaves are vibrant green, smooth, and free from lesions, spots, or abnormal discoloration.",
+    "symptoms": [
+      "Leaves are uniformly green and vigorous",
+      "No visible spots, lesions, or pustules",
+      "Normal leaf shape and texture",
+      "No signs of yellowing or browning"
+    ],
+    "causes": [],
+    "cure": [
+      "No treatment required",
+      "Continue regular crop monitoring",
+      "Maintain good agronomic practices"
+    ],
+    "prevention": [
+      "Continue regular scouting for early disease detection",
+      "Maintain optimal soil fertility and moisture",
+      "Practice crop rotation each season",
+      "Use certified disease-free seeds",
+      "Apply balanced fertilization as per soil test recommendations"
+    ]
+  },
+  "Corn___Northern_Leaf_Blight": {
+    "crop": "Corn (Maize)",
+    "disease": "Northern Leaf Blight",
+    "status": "diseased",
+    "severity": "high",
+    "description": "Northern leaf blight (NLB) is caused by the fungus Exserohilum turcicum (formerly Helminthosporium turcicum). It is a major foliar disease of corn that can cause yield losses of 30–70% in susceptible hybrids under favorable conditions.",
+    "symptoms": [
+      "Long, elliptical, cigar-shaped lesions 2.5–15 cm in length",
+      "Lesions are tan to grayish-green with wavy, irregular margins",
+      "Dark, dirty-gray sporulation visible on lesion surface under humid conditions",
+      "Lesions may coalesce, causing large areas of leaf blight",
+      "Disease usually starts on lower leaves and progresses upward",
+      "Severely infected plants show premature leaf death and poor grain fill"
+    ],
+    "causes": [
+      "Fungal pathogen: Exserohilum turcicum",
+      "Favored by moderate temperatures (18–27°C) and prolonged wet periods",
+      "Survives in infected corn residue",
+      "Conidia spread by wind over long distances",
+      "High relative humidity promotes spore germination",
+      "No-till farming increases disease risk by leaving residue on surface"
+    ],
+    "cure": [
+      "Apply foliar fungicides containing azoxystrobin, propiconazole, or pyraclostrobin",
+      "Triazole + strobilurin combinations provide best control",
+      "Target application at silking when ear leaf and above leaves show symptoms",
+      "Spray at 14-day intervals under severe disease pressure",
+      "Remove and destroy infected plant debris"
+    ],
+    "prevention": [
+      "Plant hybrids with race-specific or quantitative resistance to NLB",
+      "Rotate corn with soybeans or other non-host crops",
+      "Plow crop residue to reduce carry-over inoculum",
+      "Apply preventive fungicides at tasseling stage",
+      "Improve field drainage and air movement",
+      "Avoid excessive plant densities"
+    ]
+  },
+  "Potato___Early_Blight": {
+    "crop": "Potato",
+    "disease": "Early Blight",
+    "status": "diseased",
+    "severity": "moderate",
+    "description": "Early blight of potato is caused by Alternaria solani. It is a common and widespread foliar disease affecting potato crops worldwide. Despite its name, it typically appears on older, lower leaves during mid- to late-season and can reduce yield and tuber quality significantly.",
+    "symptoms": [
+      "Dark brown to black, circular to irregular spots with concentric rings forming a 'target board' pattern",
+      "Lesions are surrounded by yellow chlorotic halos",
+      "Disease begins on older, lower leaves and progresses upward",
+      "Severely infected leaves turn yellow and drop prematurely",
+      "Infected stems show dark, sunken lesions",
+      "Tubers may develop dark, sunken, dry lesions on the skin"
+    ],
+    "causes": [
+      "Fungal pathogen: Alternaria solani",
+      "Favored by warm temperatures (24–29°C) and alternating wet and dry periods",
+      "Survives in infected plant debris and soil",
+      "Spores spread by wind, rain splash, and irrigation water",
+      "Plant stress due to nutrient deficiency, drought, or disease weakens host resistance",
+      "Dense canopy and poor air circulation promote disease development"
+    ],
+    "cure": [
+      "Apply protectant fungicides: mancozeb, chlorothalonil or copper-based products",
+      "Use systemic fungicides: azoxystrobin, propiconazole, or difenoconazole",
+      "Apply at 7–14 day intervals starting when plants are 6 inches tall",
+      "Remove and dispose of infected plant material",
+      "Adjust irrigation to reduce leaf wetness duration"
+    ],
+    "prevention": [
+      "Plant certified disease-free seed potatoes",
+      "Use resistant or tolerant potato varieties",
+      "Rotate potatoes with non-solanaceous crops for at least 2 years",
+      "Apply balanced fertilization, especially adequate potassium and nitrogen",
+      "Avoid overhead irrigation; use drip or furrow irrigation",
+      "Destroy volunteer potato plants and solanaceous weeds"
+    ]
+  },
+  "Potato___Healthy": {
+    "crop": "Potato",
+    "disease": "No Disease Detected",
+    "status": "healthy",
+    "severity": "none",
+    "description": "The potato plant appears healthy with no visible signs of disease or stress. Healthy potato leaves are deep green, turgid, and have a uniform appearance without spots or lesions.",
+    "symptoms": [
+      "Uniformly green, turgid leaves",
+      "No visible spots, lesions, or blight",
+      "Normal leaf shape without curling or distortion",
+      "No signs of wilting or yellowing"
+    ],
+    "causes": [],
+    "cure": [
+      "No treatment required",
+      "Continue regular field monitoring",
+      "Maintain good agronomic practices"
+    ],
+    "prevention": [
+      "Use certified seed potatoes each season",
+      "Practice 3–4 year crop rotation",
+      "Monitor regularly for early disease detection",
+      "Maintain soil health with balanced fertilization",
+      "Control weeds and insect vectors"
+    ]
+  },
+  "Potato___Late_Blight": {
+    "crop": "Potato",
+    "disease": "Late Blight",
+    "status": "diseased",
+    "severity": "critical",
+    "description": "Late blight, caused by Phytophthora infestans, is the most devastating disease of potato. Historically responsible for the Irish Potato Famine (1845–1852), it can destroy an entire potato crop within days under favorable conditions. It is classified as an oomycete (water mold), not a true fungus.",
+    "symptoms": [
+      "Water-soaked, pale green to brown lesions on leaf margins and tips",
+      "Lesions rapidly expand and turn dark brown to black",
+      "White cottony sporulation on leaf undersides in humid conditions",
+      "Affected stems show brown to black streaks and rot",
+      "Tubers develop firm, reddish-brown rot that spreads inward",
+      "Entire plants may collapse and die within a week under severe conditions"
+    ],
+    "causes": [
+      "Oomycete pathogen: Phytophthora infestans",
+      "Favored by cool temperatures (10–25°C) and high humidity (>90%)",
+      "Sporangia spread rapidly by wind, rain, and irrigation water",
+      "Survives in infected tubers used as seed pieces",
+      "Can travel hundreds of kilometers by wind",
+      "Pesticide resistance developing in some pathogen strains"
+    ],
+    "cure": [
+      "Apply metalaxyl or mefenoxam-based systemic fungicides immediately upon detection",
+      "Use protectant fungicides: mancozeb, chlorothalonil, copper hydroxide",
+      "Apply at 5–7 day intervals during high-risk weather",
+      "Remove and destroy affected plants to prevent spread",
+      "Haulm destruction (killing vines) 2 weeks before harvest to prevent tuber infection",
+      "Never store visibly infected tubers"
+    ],
+    "prevention": [
+      "Plant only certified, disease-free seed potatoes",
+      "Use resistant varieties with Rpi resistance genes",
+      "Apply preventive fungicide sprays before disease onset",
+      "Avoid overhead irrigation; use furrow or drip irrigation",
+      "Destroy culled and volunteer potatoes which harbor the pathogen",
+      "Scout fields twice weekly during cool, wet periods",
+      "Maintain proper plant spacing for air circulation"
+    ]
+  },
+  "Rice___Brown_Spot": {
+    "crop": "Rice",
+    "disease": "Brown Spot",
+    "status": "diseased",
+    "severity": "moderate",
+    "description": "Brown spot of rice is caused by the fungus Cochliobolus miyabeanus (anamorph: Helminthosporium oryzae / Bipolaris oryzae). It is a major disease of rice in tropical and subtropical regions and caused the devastating Bengal Famine of 1943. It is closely associated with soil nutrient deficiencies, especially potassium and silicon.",
+    "symptoms": [
+      "Small, circular to oval spots with a brown center and yellow to brownish border",
+      "Lesions often have a gray or whitish center surrounded by a brown ring",
+      "Spots on leaves are 0.5–1 cm in diameter; infected glumes turn dark brown",
+      "Severe infection causes leaf blight and premature death",
+      "Infected seeds appear brown and shriveled",
+      "Seedling blight can occur in heavily infected nurseries"
+    ],
+    "causes": [
+      "Fungal pathogen: Cochliobolus miyabeanus / Bipolaris oryzae",
+      "Favored by temperatures of 25–30°C with high relative humidity",
+      "Strongly associated with nutrient-deficient soils (low K, Si, Mn)",
+      "Drought stress weakens plants and increases susceptibility",
+      "Seed-borne infection",
+      "Wind and rain splash spread conidia"
+    ],
+    "cure": [
+      "Apply fungicides: mancozeb, iprobenfos, edifenphos, or tricyclazole",
+      "Foliar spray of potassium silicate to strengthen leaf tissue",
+      "Apply balanced NPK fertilizers, especially potassium",
+      "Use silicon-rich soil amendments",
+      "Seed treatment with thiram or captan before sowing"
+    ],
+    "prevention": [
+      "Use certified, disease-free seeds",
+      "Treat seeds with hot water (52°C for 10 minutes) before sowing",
+      "Maintain balanced soil nutrition, especially potassium and silicon",
+      "Avoid water stress during crop growth",
+      "Plant resistant varieties",
+      "Avoid transplanting seedlings from heavily infected nurseries",
+      "Destroy infected crop residues after harvest"
+    ]
+  },
+  "Rice___Healthy": {
+    "crop": "Rice",
+    "disease": "No Disease Detected",
+    "status": "healthy",
+    "severity": "none",
+    "description": "The rice plant is healthy with no visible signs of disease. Healthy rice plants have erect, bright-green leaves with no spots, lesions, or discoloration.",
+    "symptoms": [
+      "Uniformly bright green leaves",
+      "No visible spots or lesions",
+      "Normal leaf shape and posture",
+      "No yellowing or wilting"
+    ],
+    "causes": [],
+    "cure": [
+      "No treatment required",
+      "Continue regular monitoring",
+      "Maintain optimal crop management"
+    ],
+    "prevention": [
+      "Use certified seeds and resistant varieties",
+      "Practice balanced fertilization",
+      "Maintain proper water management",
+      "Monitor regularly for early pest and disease detection",
+      "Practice crop rotation where feasible"
+    ]
+  },
+  "Rice___Leaf_Blast": {
+    "crop": "Rice",
+    "disease": "Leaf Blast",
+    "status": "diseased",
+    "severity": "high",
+    "description": "Leaf blast is the foliar phase of rice blast disease caused by the fungus Magnaporthe oryzae. It is one of the most destructive diseases of rice worldwide, capable of destroying entire crops. The pathogen has hundreds of races, making resistance breeding challenging.",
+    "symptoms": [
+      "Diamond-shaped or spindle-shaped lesions with gray-white centers and brown borders",
+      "Lesions have a characteristic spindle shape wider in the middle",
+      "Early infections show water-soaked green to gray spots",
+      "Lesions expand rapidly under favorable conditions",
+      "Severely infected leaves turn completely brown and die",
+      "White cottony mycelia visible on lesions in humid conditions"
+    ],
+    "causes": [
+      "Fungal pathogen: Magnaporthe oryzae",
+      "Favored by temperatures of 25–28°C and relative humidity >90%",
+      "High nitrogen fertilization promotes lush, susceptible growth",
+      "Cloudy weather with dew formation increases infection risk",
+      "Conidia are wind-dispersed and highly infectious",
+      "Silicon-deficient plants are more susceptible"
+    ],
+    "cure": [
+      "Apply tricyclazole (a melanin biosynthesis inhibitor) at first symptom appearance",
+      "Use isoprothiolane or propiconazole as alternatives",
+      "Apply at 7-day intervals during disease-favorable periods",
+      "Reduce nitrogen application upon disease detection",
+      "Silicon-based fertilizer application strengthens leaf tissue"
+    ],
+    "prevention": [
+      "Plant blast-resistant varieties (Pi resistance genes)",
+      "Avoid excess nitrogen fertilization; split N application",
+      "Apply silicon fertilizers (calcium silicate) at field preparation",
+      "Use certified disease-free seeds; treat seeds with fungicide",
+      "Drain fields periodically to reduce humidity",
+      "Avoid dense planting; maintain recommended plant spacing",
+      "Scout nurseries and transplant fields weekly during vegetative stage"
+    ]
+  },
+  "Rice___Neck_Blast": {
+    "crop": "Rice",
+    "disease": "Neck Blast",
+    "status": "diseased",
+    "severity": "critical",
+    "description": "Neck blast is the most devastating phase of rice blast disease (Magnaporthe oryzae), attacking the neck of the panicle just below the grain-bearing branches. It can cause complete grain sterility and total yield loss if it occurs early at heading stage. It is considered the most economically important form of blast.",
+    "symptoms": [
+      "Brown to black lesions on the neck of the panicle (just below the first node)",
+      "Infected neck becomes brittle and breaks easily",
+      "Complete panicle may break off or remain upright but with empty grains",
+      "White panicles (panicles without grain) are a characteristic sign",
+      "Infected nodes turn dark brown to black",
+      "Grain sterility up to 100% in severe cases"
+    ],
+    "causes": [
+      "Fungal pathogen: Magnaporthe oryzae (same as leaf blast)",
+      "Infection occurs at heading stage (most vulnerable period)",
+      "Cool temperatures (20–25°C) with high humidity at heading",
+      "Splashing rain and dew facilitate spore infection",
+      "Late planting increases exposure during susceptible heading stage",
+      "High nitrogen application at heading increases susceptibility"
+    ],
+    "cure": [
+      "Apply tricyclazole or isoprothiolane preventively at boot leaf stage",
+      "Apply again at 50% heading to protect panicle emergence",
+      "Systemic fungicides (propiconazole, tebuconazole) provide better curative activity",
+      "Spraying after neck infection is rarely effective—prevention is critical",
+      "Reduce nitrogen top-dressing at panicle initiation stage"
+    ],
+    "prevention": [
+      "Plant heading-stage resistant varieties",
+      "Time planting to avoid cool, humid periods at heading",
+      "Apply preventive tricyclazole spray at panicle initiation (PI) stage",
+      "Apply second spray at heading (50% panicle emergence)",
+      "Avoid excess nitrogen—especially at late growth stages",
+      "Use silicon fertilizers to strengthen stem and panicle tissues",
+      "Monitor fields daily from PI to heading for early detection"
+    ]
+  },
+  "Sugarcane_Bacterial Blight": {
+    "crop": "Sugarcane",
+    "disease": "Bacterial Blight",
+    "status": "diseased",
+    "severity": "high",
+    "description": "Bacterial blight of sugarcane is caused by Xanthomonas albilineans. It is a devastating systemic vascular disease that invades the xylem tissue, blocking water and nutrient transport. In its acute form, it can rapidly kill entire stools and fields. The disease is also called 'leaf scald' in some regions.",
+    "symptoms": [
+      "White or pale yellow pencil-line stripes running along leaf veins",
+      "Stripes may extend the entire leaf length and turn necrotic",
+      "Acute phase: rapid wilting and death of leaves ('scalding')",
+      "White bacterial exudate visible when cut stalks are squeezed",
+      "Internal stalk tissue shows white, cream to pink discoloration",
+      "Stunted plant growth and pale yellow-green leaf coloration",
+      "Dead central shoot ('dead heart') in young plants"
+    ],
+    "causes": [
+      "Bacterial pathogen: Xanthomonas albilineans",
+      "Spread by infected planting material (setts/billets)",
+      "Mechanical transmission via cutting tools (machetes, harvesters)",
+      "Wind-driven rain spreads bacteria from leaf to leaf",
+      "Aphid vectors can transmit the pathogen",
+      "Waterlogged soils increase disease severity"
+    ],
+    "cure": [
+      "Remove and burn infected stools immediately",
+      "Sterilize cutting tools with bleach solution (10%) or flame between stools",
+      "Apply copper-based bactericides to reduce spread (limited systemic effect)",
+      "Use hot water treatment (50°C for 3 hours) for planting material",
+      "Severely infected fields should be fallowed and replanted with resistant varieties"
+    ],
+    "prevention": [
+      "Plant only certified, disease-free seed cane",
+      "Use resistant or tolerant sugarcane varieties",
+      "Sterilize all cutting equipment before use",
+      "Implement strict quarantine for planting material from disease-endemic areas",
+      "Rogue and destroy infected plants promptly",
+      "Avoid water logging; improve field drainage",
+      "Practice crop rotation with non-host crops between sugarcane cycles"
+    ]
+  },
+  "Sugarcane_Healthy": {
+    "crop": "Sugarcane",
+    "disease": "No Disease Detected",
+    "status": "healthy",
+    "severity": "none",
+    "description": "The sugarcane plant appears healthy with no signs of disease or pest damage. Healthy sugarcane has tall, dark-green leaves with a waxy surface, vigorous growth, and no streaking, spotting, or discoloration.",
+    "symptoms": [
+      "Uniformly dark green, waxy leaves",
+      "Vigorous, upright growth",
+      "No visible streaks, lesions, or discoloration",
+      "Normal leaf shape and structure"
+    ],
+    "causes": [],
+    "cure": [
+      "No treatment required",
+      "Continue regular monitoring",
+      "Maintain good agronomic management"
+    ],
+    "prevention": [
+      "Use certified disease-free planting material",
+      "Maintain balanced soil fertility",
+      "Practice field sanitation and equipment sterilization",
+      "Monitor regularly for signs of disease and pests",
+      "Rotate with legumes between sugarcane cycles"
+    ]
+  },
+  "Sugarcane_Red Rot": {
+    "crop": "Sugarcane",
+    "disease": "Red Rot",
+    "status": "diseased",
+    "severity": "critical",
+    "description": "Red rot is the most destructive disease of sugarcane, caused by the fungus Colletotrichum falcatum (teleomorph: Glomerella tucumanensis). It attacks the stalk, causing internal rotting that can destroy entire fields. It reduces both cane yield and juice quality, causing major economic losses in South Asia.",
+    "symptoms": [
+      "Reddening of internal stalk tissues when split longitudinally",
+      "White patches or spots scattered on the red internal tissue (diagnostic sign)",
+      "Fermenting, sour smell from rotted stalks",
+      "Drying of leaves starting from the top; leaf midrib turns red",
+      "Yellowing and withering of leaves, starting from upper leaves",
+      "Shredded internal tissue and hollow stalks in advanced stages",
+      "Dark red to black discoloration of nodes"
+    ],
+    "causes": [
+      "Fungal pathogen: Colletotrichum falcatum",
+      "Spread through infected planting setts",
+      "Spores spread by wind, rain, and insects (aphids, borers create entry wounds)",
+      "Waterlogged or poorly drained soils favor disease",
+      "Drought stress followed by rain promotes infection",
+      "Mechanical damage from pests or equipment creates entry points"
+    ],
+    "cure": [
+      "Remove and destroy all infected stools immediately",
+      "Treat setts with Bavistin (Carbendazim 0.1%) or Thiram before planting",
+      "Apply Propiconazole or Tebuconazole as a soil drench around affected stools",
+      "Improve field drainage to reduce waterlogging",
+      "Avoid ratoon crop from heavily infected fields—replant with clean material"
+    ],
+    "prevention": [
+      "Use red rot resistant sugarcane varieties",
+      "Plant only disease-free, certified seed cane",
+      "Treat setts with hot water at 50°C for 2 hours before planting",
+      "Treat setts with Carbendazim (Bavistin) 0.1% for 15 minutes",
+      "Improve field drainage; avoid waterlogging",
+      "Maintain optimum plant population; avoid over-crowding",
+      "Control borer insects that create entry wounds for the fungus",
+      "Avoid ratoon cropping in fields with red rot history"
+    ]
+  },
+  "Wheat___Brown_Rust": {
+    "crop": "Wheat",
+    "disease": "Brown Rust (Leaf Rust)",
+    "status": "diseased",
+    "severity": "high",
+    "description": "Brown rust (also called leaf rust) of wheat is caused by Puccinia triticina (syn. P. recondita). It is the most common and widely distributed rust disease of wheat globally. It can cause yield losses of 10–40% depending on crop growth stage at infection and environmental conditions.",
+    "symptoms": [
+      "Small, circular to oval, orange-brown pustules (uredinia) on leaf surfaces",
+      "Pustules are random and scattered, mostly on upper leaf surface",
+      "Pustules may also appear on leaf sheaths and glumes",
+      "Surrounding leaf tissue turns yellow (chlorotic halo) around pustules",
+      "Dark black telia (teliospore) pustules appear on leaves during late season",
+      "Severely infected leaves dry out and die prematurely",
+      "Yield losses due to reduced photosynthesis and early senescence"
+    ],
+    "causes": [
+      "Fungal pathogen: Puccinia triticina",
+      "Favored by mild temperatures (15–22°C) and high humidity",
+      "Urediniospores are wind-dispersed over long distances",
+      "Alternate host: Thalictrum species (meadow rue)",
+      "Susceptible varieties with no race-specific resistance",
+      "Late sowing and delayed maturity extend exposure period"
+    ],
+    "cure": [
+      "Apply triazole fungicides: propiconazole, tebuconazole, or triadimefon",
+      "Strobilurin fungicides (azoxystrobin, pyraclostrobin) are effective",
+      "Use triazole + strobilurin premix for broader control",
+      "Apply at flag leaf emergence for best yield protection",
+      "Repeat spray at 14–21 days if disease pressure continues"
+    ],
+    "prevention": [
+      "Plant rust-resistant wheat varieties with Lr genes",
+      "Use certified, treated seed free from rust spores",
+      "Monitor varieties as new pathogen races may overcome resistance",
+      "Apply preventive fungicide at flag leaf stage",
+      "Ensure early planting to avoid peak rust conditions",
+      "Destroy volunteer wheat and alternate hosts around fields",
+      "Participate in regional rust surveillance programs"
+    ]
+  },
+  "Wheat___Healthy": {
+    "crop": "Wheat",
+    "disease": "No Disease Detected",
+    "status": "healthy",
+    "severity": "none",
+    "description": "The wheat plant is healthy with no visible signs of disease. Healthy wheat plants have erect, green leaves without any pustules, spots, or discoloration. They show vigorous growth appropriate to their growth stage.",
+    "symptoms": [
+      "Uniformly green, upright leaves",
+      "No visible pustules, spots, or streaks",
+      "Normal leaf shape and growth",
+      "No yellowing or premature senescence"
+    ],
+    "causes": [],
+    "cure": [
+      "No treatment required",
+      "Continue regular field scouting",
+      "Maintain good agronomic practices"
+    ],
+    "prevention": [
+      "Use certified rust-resistant wheat varieties",
+      "Practice timely sowing for your region",
+      "Apply balanced NPK fertilizers",
+      "Scout fields weekly from tillering to grain fill",
+      "Participate in regional pest and disease surveillance"
+    ]
+  },
+  "Wheat___Yellow_Rust": {
+    "crop": "Wheat",
+    "disease": "Yellow Rust (Stripe Rust)",
+    "status": "diseased",
+    "severity": "critical",
+    "description": "Yellow rust (stripe rust) of wheat is caused by Puccinia striiformis f. sp. tritici. It is among the most destructive of all wheat diseases, capable of causing yield losses of 70–100% in highly susceptible varieties under epidemic conditions. New virulent races (like Warrior race) have overcome many resistance genes.",
+    "symptoms": [
+      "Bright yellow to lemon-yellow, powdery pustules arranged in stripes along leaf veins",
+      "Pustules run parallel to leaf veins in characteristic stripe pattern",
+      "Yellow spore masses (urediniospores) cover leaf surface in heavy infections",
+      "Cool-weather appearance: often occurs before other rusts",
+      "Infected leaves turn yellow, then brown and shrivel",
+      "Pustules may appear on glumes, awns, and leaf sheaths",
+      "Severe infections result in total leaf death and shriveled grain"
+    ],
+    "causes": [
+      "Fungal pathogen: Puccinia striiformis f. sp. tritici",
+      "Favored by cool temperatures (2–15°C optimal) and moisture",
+      "Urediniospores are wind-dispersed; can travel thousands of kilometers",
+      "Survives in green wheat tissue year-round in cool regions",
+      "Rapidly evolving new virulent races that break down resistance",
+      "Dense crop stands and high nitrogen promote epidemic spread"
+    ],
+    "cure": [
+      "Apply triazole fungicides immediately: tebuconazole, propiconazole, or cyproconazole",
+      "Propiconazole is highly effective against stripe rust",
+      "Strobilurin + triazole premix provides curative and protectant action",
+      "Apply at early symptom stage; delay reduces efficacy significantly",
+      "Aerial application may be needed in large-scale epidemics",
+      "Apply at 14-day intervals during cool, wet conditions"
+    ],
+    "prevention": [
+      "Plant varieties with multiple Yr resistance genes",
+      "Monitor for new rust races; update variety resistance ratings",
+      "Apply preventive fungicide at tillering and flag leaf stages",
+      "Early sowing in high-risk areas to mature before peak disease period",
+      "Avoid dense planting and excessive nitrogen",
+      "Scout fields weekly from tillering onwards in cool seasons",
+      "Report unusual rust outbreaks to agricultural authorities",
+      "Use regional rust forecast services to plan fungicide timing"
+    ]
+  }
+}

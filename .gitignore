@@ -1,0 +1,15 @@
+train/Crop Diseases/
+node_modules/
+node_modules/
+__pycache__/
+.env
+venv/
+*.h5
+*.keras
+*.ckpt
+.ipynb_checkpoints/
+dist/
+build/
+.DS_Store
+train/Crop Diseases/
+*.zip

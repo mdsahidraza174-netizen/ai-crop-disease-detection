@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+.venv
+*.log
+models_1/
+backend/models_1/
+train/Crop Diseases/
+backend/models_1/
+node_modules/
+*.zip
+*.h5
+*.kerass

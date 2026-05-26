@@ -1,0 +1,81 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  theme: {
+    extend: {
+      colors: {
+        green: {
+          50:  "#F0F7EA",
+          100: "#DCF0CB",
+          200: "#B5DA95",
+          300: "#88C263",
+          400: "#5DA83C",
+          500: "#3D9A3F",
+          600: "#2D7D3A",
+          700: "#1E5E28",
+          800: "#144019",
+          900: "#0F3015",
+          950: "#071808",
+        },
+        leaf: {
+          50:  "#F7FAF3",
+          100: "#EEF4E8",
+          200: "#D6E9C6",
+          300: "#B0D193",
+          400: "#82B45F",
+          500: "#5D9840",
+          600: "#457A2E",
+          700: "#345F23",
+          800: "#284A1C",
+          900: "#1D3614",
+        },
+        stone: {
+          50:  "#FAFAF8",
+          100: "#F3F4F0",
+          200: "#E5E8DF",
+          300: "#CDD3C3",
+          400: "#A8B49A",
+          500: "#7D8E71",
+          600: "#5E6D54",
+          700: "#485440",
+          800: "#384232",
+          900: "#2B3227",
+        },
+        amber: {
+          50:  "#FFFBEB",
+          400: "#FBBF24",
+          500: "#F59E0B",
+          600: "#D97706",
+          700: "#B45309",
+          800: "#C47A1E",
+        },
+      },
+      fontFamily: {
+        display: ["'Fraunces'", "Georgia", "serif"],
+        body:    ["'Plus Jakarta Sans'", "system-ui", "sans-serif"],
+        mono:    ["'IBM Plex Mono'", "monospace"],
+      },
+      boxShadow: {
+        "sm-green": "0 2px 8px rgba(61,154,63,0.12)",
+        "md-green": "0 4px 24px rgba(61,154,63,0.18)",
+        "lg-green": "0 8px 40px rgba(61,154,63,0.22)",
+        "card":     "0 1px 3px rgba(22,32,16,0.06), 0 1px 2px rgba(22,32,16,0.04)",
+        "card-md":  "0 4px 16px rgba(22,32,16,0.08), 0 2px 6px rgba(22,32,16,0.04)",
+        "card-lg":  "0 12px 40px rgba(22,32,16,0.10), 0 4px 12px rgba(22,32,16,0.05)",
+      },
+      borderRadius: {
+        "2xl": "16px",
+        "3xl": "24px",
+        "4xl": "32px",
+      },
+      animation: {
+        "pulse-slow":   "pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        "fade-up":      "fadeSlideUp 0.5s ease both",
+        "scan":         "scan 2s ease-in-out infinite",
+        "shimmer":      "shimmer 1.8s linear infinite",
+      },
+    },
+  },
+  plugins: [],
+};
+

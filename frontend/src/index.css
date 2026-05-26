@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Design tokens ────────────────────────────────────────────── */
+:root {
+  --bg:           #F7F9F4;
+  --bg-alt:       #FFFFFF;
+  --bg-tint:      #EEF4E8;
+  --surface:      #FFFFFF;
+  --surface-alt:  #F2F7ED;
+
+  --border:       #DDE8D0;
+  --border-strong:#B8CFA0;
+
+  --text-primary: #162010;
+  --text-body:    #3A5230;
+  --text-muted:   #6B8F5A;
+  --text-light:   #8FAD7B;
+
+  --green-50:     #F0F7EA;
+  --green-100:    #DCF0CB;
+  --green-200:    #B5DA95;
+  --green-300:    #88C263;
+  --green-500:    #3D9A3F;
+  --green-600:    #2D7D3A;
+  --green-700:    #1E5E28;
+  --green-900:    #0F3015;
+
+  --amber:        #C47A1E;
+  --amber-bg:     #FEF3DC;
+  --amber-border: #F0C878;
+
+  --red:          #C0352B;
+  --red-bg:       #FEF0EE;
+  --red-border:   #F4B2AC;
+
+  --blue:         #2563EB;
+  --blue-bg:      #EFF6FF;
+
+  --shadow-sm:       0 1px 3px rgba(22,32,16,0.06), 0 1px 2px rgba(22,32,16,0.04);
+  --shadow-md:       0 4px 16px rgba(22,32,16,0.08), 0 2px 6px rgba(22,32,16,0.04);
+  --shadow-lg:       0 12px 40px rgba(22,32,16,0.10), 0 4px 12px rgba(22,32,16,0.05);
+  /* FIX: was missing --shadow-md-green, only --shadow-green existed */
+  --shadow-green:    0 4px 24px rgba(61,154,63,0.18);
+  --shadow-md-green: 0 4px 24px rgba(61,154,63,0.18);
+  --shadow-lg-green: 0 8px 40px rgba(61,154,63,0.22);
+}
+
+/* ── Reset ────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  background-color: var(--bg);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar ────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: var(--green-500); }
+
+/* ── Page background ──────────────────────────────────────────── */
+.bg-mesh {
+  background:
+    radial-gradient(ellipse 70% 50% at 15% 10%, rgba(61,154,63,0.06) 0%, transparent 55%),
+    radial-gradient(ellipse 50% 40% at 85% 85%, rgba(61,154,63,0.05) 0%, transparent 55%),
+    radial-gradient(ellipse 60% 70% at 50% 50%, rgba(210,235,185,0.15) 0%, transparent 70%),
+    #F7F9F4;
+}
+
+/* ── Subtle dot grid texture ──────────────────────────────────── */
+.bg-mesh::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(61,154,63,0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Card surfaces ────────────────────────────────────────────── */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+  border-radius: 16px;
+}
+
+.card-elevated {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+  border-radius: 20px;
+}
+
+/* kept as alias for any glass references in the codebase */
+.glass        { background: var(--surface);     border: 1px solid var(--border);        box-shadow: var(--shadow-sm); }
+.glass-strong { background: var(--surface-alt); border: 1px solid var(--border-strong); box-shadow: var(--shadow-md); }
+
+/* ── Confidence bar shadows ───────────────────────────────────── */
+.bar-glow-green  { box-shadow: 0 0 10px rgba(61,154,63,0.35); }
+.bar-glow-yellow { box-shadow: 0 0 10px rgba(196,122,30,0.35); }
+.bar-glow-red    { box-shadow: 0 0 10px rgba(192,53,43,0.35); }
+
+/* ── Upload zone ──────────────────────────────────────────────── */
+.upload-zone {
+  border: 2px dashed var(--border-strong);
+  background: var(--bg-tint);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.upload-zone:hover,
+.upload-zone.active {
+  border-color: var(--green-500);
+  background: var(--green-50);
+  box-shadow: inset 0 0 0 4px rgba(61,154,63,0.06), var(--shadow-green);
+}
+
+/* ── Scan line (image analysis overlay) ──────────────────────── */
+.scan-line {
+  background: linear-gradient(to bottom, transparent, rgba(61,154,63,0.5), transparent);
+  height: 3px;
+}
+
+/* ── Severity badges ──────────────────────────────────────────── */
+.badge-critical { background: var(--red-bg);   color: var(--red);   border: 1px solid var(--red-border);   }
+.badge-high     { background: var(--amber-bg); color: var(--amber); border: 1px solid var(--amber-border); }
+.badge-moderate { background: #FFFBEB;         color: #92400E;      border: 1px solid #FDE68A;             }
+.badge-healthy  { background: var(--green-50); color: var(--green-600); border: 1px solid var(--green-200); }
+.badge-none     { background: var(--green-50); color: var(--green-600); border: 1px solid var(--green-200); }
+
+/* ── Shimmer (skeleton loading) ───────────────────────────────── */
+.shimmer {
+  background: linear-gradient(90deg, #F0F4EC 25%, #E4EDD8 50%, #F0F4EC 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.8s linear infinite;
+}
+
+/* ── Primary CTA button ───────────────────────────────────────── */
+.btn-primary {
+  background: linear-gradient(135deg, var(--green-600) 0%, var(--green-500) 100%);
+  color: #ffffff;
+  box-shadow: var(--shadow-green), 0 1px 0 rgba(255,255,255,0.15) inset;
+  transition: all 0.2s ease;
+}
+.btn-primary:hover {
+  background: linear-gradient(135deg, var(--green-700) 0%, var(--green-600) 100%);
+  box-shadow: 0 6px 28px rgba(61,154,63,0.28);
+  transform: translateY(-1px);
+}
+.btn-primary:active { transform: translateY(0); }
+
+/* ── Section divider ──────────────────────────────────────────── */
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+}
+
+/* ── FIX: Only hide file inputs that are inside labels (camera button).
+        Do NOT hide the react-dropzone hidden input — it's needed for
+        accessibility and keyboard/screen-reader support.           ── */
+label > input[type="file"] { display: none; }
+
+/* ── Selection ────────────────────────────────────────────────── */
+::selection { background: rgba(61,154,63,0.2); color: var(--text-primary); }
+
+/* ── Keyframes ────────────────────────────────────────────────── */
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+@keyframes scan {
+  0%, 100% { top: 0%; }
+  50%       { top: 100%; }
+}
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.6; transform: scale(0.8); }
+}
